@@ -375,6 +375,7 @@ people.forEach((person) => {
 
     tableRow.append(tableData);
 
-    table.firstElementChild.append(tableRow);
   }
+
+  table.firstElementChild.append(tableRow);
 });
